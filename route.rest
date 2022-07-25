@@ -1,0 +1,26 @@
+
+GET http://localhost:3000/employee
+
+
+###
+POST http://localhost:3000/employee
+content-Type: application/json
+
+{
+    "name": "priyansh kulshrestha",
+    "dep": "Technical",
+    "salary": 20000
+}
+
+###
+PATCH http://localhost:3000/62de4f1a3d12d23cbe15b9f4
+Content-Type: application/json
+
+{
+    "name": "priyansh_kul",
+    "dep": "tech",
+    "salary": 25000
+}
+
+###
+DELETE http://localhost:3000/employee/62de4bb6ea2e05ee12950976
